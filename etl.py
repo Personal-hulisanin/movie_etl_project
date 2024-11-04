@@ -143,8 +143,7 @@ def main():
         logging.debug(f"pagination: {pagination}")
 
         movie_results, total_pages = extract_movies(env.url.get('movie'), 'results', pagination)
-        #Testing purposes
-        total_pages = 10
+        
 
         if movie_results:
             movies, movie_genres = transform_movies(movie_results)
