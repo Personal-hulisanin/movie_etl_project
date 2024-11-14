@@ -1,6 +1,8 @@
 -- Create the database
 CREATE DATABASE ETL_Project;
 
+-- Set the ETL_Project DB as default
+
 -- Create Schema
 CREATE SCHEMA IF NOT EXISTS etl_project;
 
