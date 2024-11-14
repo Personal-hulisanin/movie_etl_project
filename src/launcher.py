@@ -39,7 +39,7 @@ def main():
 
             ld.load(movies, 'movies', engine)
             ld.load(movie_genres, 'movie_genres', engine)
-            total_pages = 1
+            
             if pagination >= total_pages:
                 logging.info("Reached the last page.")
                 break
